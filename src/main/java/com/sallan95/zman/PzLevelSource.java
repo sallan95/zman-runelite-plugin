@@ -1,4 +1,4 @@
-package com.zman;
+package com.sallan95.zman;
 
 import net.runelite.api.Skill;
 

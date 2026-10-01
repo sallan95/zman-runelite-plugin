@@ -1,4 +1,4 @@
-package com.zman;
+package com.sallan95.zman;
 
 import com.google.inject.Provides;
 import java.util.ArrayList;
@@ -49,7 +49,9 @@ public class ZmanPlugin extends Plugin
 
 	private boolean recomputedThisLogin;
 
-	private List<SkillRequirement> deficiencies = Collections.emptyList();
+	// Written on the client thread (recompute()), read on the AWT/EDT thread (ZmanOverlay.render()).
+	// volatile guarantees the EDT sees each new reference rather than a stale cached one.
+	private volatile List<SkillRequirement> deficiencies = Collections.emptyList();
 
 	@Override
 	protected void startUp() throws Exception

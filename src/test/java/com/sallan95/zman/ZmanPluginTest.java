@@ -1,4 +1,4 @@
-package com.zman;
+package com.sallan95.zman;
 
 import net.runelite.client.RuneLite;
 import net.runelite.client.externalplugins.ExternalPluginManager;

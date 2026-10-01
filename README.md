@@ -4,6 +4,8 @@ A RuneLite plugin that shows a persistent overlay listing any RuneScape skill cu
 
 See `planning/requirements.md` for the full rule and skill mapping, and `planning/BACKLOG.md` for the build order.
 
+> **Compatibility note:** the Blacksmithing skill (feeds the RuneScape Smithing requirement) only exists in Project Zomboid **Build 42**. On Build 41, leave that config field at 0 (untracked).
+
 ## Development
 
 ### One-time: save Jagex login credentials for the dev client

@@ -1,4 +1,4 @@
-package com.zman;
+package com.sallan95.zman;
 
 import java.util.stream.IntStream;
 import javax.inject.Inject;

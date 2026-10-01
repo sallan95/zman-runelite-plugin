@@ -1,4 +1,4 @@
-package com.zman;
+package com.sallan95.zman;
 
 import net.runelite.client.config.Config;
 import net.runelite.client.config.ConfigGroup;

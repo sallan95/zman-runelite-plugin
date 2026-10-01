@@ -22,9 +22,9 @@ Full planning history — requirements, clarifying Q&A, architectural decisions,
 ## Project Structure
 
 ```
-src/main/java/com/zman/    # Plugin source
-src/test/java/com/zman/    # ZmanPluginTest — the ./gradlew run entry point (not unit tests)
-planning/                  # requirements, clarifications, decisions, backlog, stories
+src/main/java/com/sallan95/zman/    # Plugin source
+src/test/java/com/sallan95/zman/    # ZmanPluginTest (entry point) + unit tests
+planning/                           # requirements, clarifications, decisions, backlog, stories
 ```
 
 ## Current Architecture (fill in as stories land)
