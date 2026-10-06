@@ -1,7 +1,11 @@
 .gradle/
 build/
 out/
+bin/
 *.class
 .idea/
 *.iml
 .vscode/
+
+# Local dev convenience script (hardcoded to this machine's RuneLite profile paths)
+scripts/update-pz-level.ps1
